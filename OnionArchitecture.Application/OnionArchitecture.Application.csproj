@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnionArchitecture.Domain\OnionArchitecture.Domain.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.DTOs\OnionArchitecture.DTOs.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Extension\OnionArchitecture.Extension.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Utils\OnionArchitecture.Utils.csproj" />
+  </ItemGroup>
+
 </Project>
