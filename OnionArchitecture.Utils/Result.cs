@@ -51,4 +51,14 @@ public class Result<T>
 		};
 	}
 
+	public static Result<T> DeleteSuccess(string message = "Delete Successful.", EnumStatusCode statusCode = EnumStatusCode.Success)
+	{
+		return new Result<T>
+		{
+			IsSuccess = true,
+			Message = message,
+			StatusCode = statusCode
+		};
+	}
+
 }
