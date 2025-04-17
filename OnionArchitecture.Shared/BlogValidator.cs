@@ -1,7 +1,4 @@
-﻿using FluentValidation;
-using OnionArchitecture.DTOs.Features.Blog;
-
-namespace OnionArchitecture.Shared;
+﻿namespace OnionArchitecture.Shared;
 
 public class BlogValidator : AbstractValidator<BlogRequestModel>
 {
