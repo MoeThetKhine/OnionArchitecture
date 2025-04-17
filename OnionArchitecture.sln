@@ -19,6 +19,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Utils", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Shared", "OnionArchitecture.Shared\OnionArchitecture.Shared.csproj", "{C4F33A51-6D10-4731-A178-CCE5015566CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Application", "OnionArchitecture.Application\OnionArchitecture.Application.csproj", "{190BDFFE-3CDC-44EC-AEBE-A59311DA1A09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Domain", "OnionArchitecture.Domain\OnionArchitecture.Domain.csproj", "{98FAA1E6-2F5C-4CE0-BD82-6D01D2C1225C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Infrastructure", "OnionArchitecture.Infrastructure\OnionArchitecture.Infrastructure.csproj", "{3E5D1A9A-023B-4634-9CAE-010B47131118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Presentation", "OnionArchitecture.Presentation\OnionArchitecture.Presentation.csproj", "{B208EB0D-3563-4AF1-A11B-E47AA55C5C6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +53,22 @@ Global
 		{C4F33A51-6D10-4731-A178-CCE5015566CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4F33A51-6D10-4731-A178-CCE5015566CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4F33A51-6D10-4731-A178-CCE5015566CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190BDFFE-3CDC-44EC-AEBE-A59311DA1A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190BDFFE-3CDC-44EC-AEBE-A59311DA1A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190BDFFE-3CDC-44EC-AEBE-A59311DA1A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190BDFFE-3CDC-44EC-AEBE-A59311DA1A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98FAA1E6-2F5C-4CE0-BD82-6D01D2C1225C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98FAA1E6-2F5C-4CE0-BD82-6D01D2C1225C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98FAA1E6-2F5C-4CE0-BD82-6D01D2C1225C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98FAA1E6-2F5C-4CE0-BD82-6D01D2C1225C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5D1A9A-023B-4634-9CAE-010B47131118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5D1A9A-023B-4634-9CAE-010B47131118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5D1A9A-023B-4634-9CAE-010B47131118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5D1A9A-023B-4634-9CAE-010B47131118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B208EB0D-3563-4AF1-A11B-E47AA55C5C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B208EB0D-3563-4AF1-A11B-E47AA55C5C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B208EB0D-3563-4AF1-A11B-E47AA55C5C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B208EB0D-3563-4AF1-A11B-E47AA55C5C6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +81,9 @@ Global
 		{5EB25C69-9FA4-4705-8DD9-9950325D87B9} = {33636FCC-C1C9-4B3D-8C3A-9894A8A9F954}
 		{92339D78-DBB3-4383-A791-4DBD77220CB2} = {33636FCC-C1C9-4B3D-8C3A-9894A8A9F954}
 		{C4F33A51-6D10-4731-A178-CCE5015566CB} = {33636FCC-C1C9-4B3D-8C3A-9894A8A9F954}
+		{190BDFFE-3CDC-44EC-AEBE-A59311DA1A09} = {341E7464-26DD-45EB-BD67-18EA6B4DFDBF}
+		{98FAA1E6-2F5C-4CE0-BD82-6D01D2C1225C} = {341E7464-26DD-45EB-BD67-18EA6B4DFDBF}
+		{3E5D1A9A-023B-4634-9CAE-010B47131118} = {341E7464-26DD-45EB-BD67-18EA6B4DFDBF}
+		{B208EB0D-3563-4AF1-A11B-E47AA55C5C6C} = {341E7464-26DD-45EB-BD67-18EA6B4DFDBF}
 	EndGlobalSection
 EndGlobal
