@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.DTOs.Features.Blog
+﻿namespace OnionArchitecture.DTOs.Features.Blog;
+
+internal class BlogRequestModel
 {
-	internal class BlogRequestModel
-	{
-	}
 }
