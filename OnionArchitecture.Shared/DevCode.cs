@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Shared
+﻿namespace OnionArchitecture.Shared;
+
+internal class DevCode
 {
-	internal class DevCode
-	{
-	}
 }
