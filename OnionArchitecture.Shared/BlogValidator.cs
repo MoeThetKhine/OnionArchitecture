@@ -1,5 +1,5 @@
 ﻿namespace OnionArchitecture.Shared;
 
-internal class BlogValidator
+public class BlogValidator
 {
 }
