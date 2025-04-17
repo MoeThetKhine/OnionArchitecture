@@ -1,6 +1,4 @@
-﻿using OnionArchitecture.Utils.Enums;
-
-namespace OnionArchitecture.Utils;
+﻿namespace OnionArchitecture.Utils;
 
 #region Result
 
