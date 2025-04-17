@@ -18,4 +18,14 @@ public static class Extension
 		};
 	}
 
+	public static TblBlog ToEntity(this BlogRequestModel model)
+	{
+		return new TblBlog
+		{
+			BlogTitle = model.BlogTitle,
+			BlogAuthor = model.BlogAuthor,
+			BlogContent = model.BlogContent
+		};
+	}
+
 }
