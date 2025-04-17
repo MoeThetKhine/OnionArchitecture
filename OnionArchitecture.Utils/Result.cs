@@ -19,4 +19,16 @@ public class Result<T>
 			StatusCode = statusCode
 		};
 	}
+
+	public static Result<T> Success(T data, string message = "Success.", EnumStatusCode statusCode = EnumStatusCode.Success)
+	{
+		return new Result<T>
+		{
+			Data = data,
+			IsSuccess = true,
+			Message = message,
+			StatusCode = statusCode
+		};
+	}
+
 }
