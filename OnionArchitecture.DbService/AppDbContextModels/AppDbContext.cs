@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace OnionArchitecture.DbService.AppDbContextModels;
+﻿namespace OnionArchitecture.DbService.AppDbContextModels;
 
 public partial class AppDbContext : DbContext
 {
