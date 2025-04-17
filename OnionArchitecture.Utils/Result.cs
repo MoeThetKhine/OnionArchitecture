@@ -31,4 +31,14 @@ public class Result<T>
 		};
 	}
 
+	public static Result<T> SaveSuccess(string message = "Saving Successful.", EnumStatusCode statusCode = EnumStatusCode.Success)
+	{
+		return new Result<T>
+		{
+			IsSuccess = true,
+			Message = message,
+			StatusCode = statusCode
+		};
+	}
+
 }
