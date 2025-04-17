@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Utils.Enums
+﻿namespace OnionArchitecture.Utils.Enums;
+
+internal class EnumStatusCode
 {
-	internal class EnumStatusCode
-	{
-	}
 }
