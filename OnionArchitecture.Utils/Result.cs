@@ -1,5 +1,5 @@
 ﻿namespace OnionArchitecture.Utils;
 
-internal class Result
+public class Result<T>
 {
 }
