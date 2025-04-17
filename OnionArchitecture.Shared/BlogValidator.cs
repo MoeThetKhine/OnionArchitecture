@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Shared
+﻿namespace OnionArchitecture.Shared;
+
+internal class BlogValidator
 {
-	internal class BlogValidator
-	{
-	}
 }
