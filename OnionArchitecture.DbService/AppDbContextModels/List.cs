@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.DbService.AppDbContextModels;
 
+#region List
+
 public partial class List
 {
     public long Id { get; set; }
@@ -10,3 +12,5 @@ public partial class List
 
     public DateTime? ExpireAt { get; set; }
 }
+
+#endregion
