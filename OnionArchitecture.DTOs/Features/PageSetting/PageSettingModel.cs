@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.DTOs.Features.PageSetting
+﻿namespace OnionArchitecture.DTOs.Features.PageSetting;
+
+internal class PageSettingModel
 {
-	internal class PageSettingModel
-	{
-	}
 }
