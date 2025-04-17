@@ -1,5 +1,5 @@
 ﻿namespace OnionArchitecture.Utils.Enums;
 
-internal class EnumStatusCode
+public enum EnumStatusCode
 {
 }
