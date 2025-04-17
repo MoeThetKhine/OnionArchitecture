@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Onion", "Onion", "{D0767168-C038-4856-8283-EA68A7D27708}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{33636FCC-C1C9-4B3D-8C3A-9894A8A9F954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{341E7464-26DD-45EB-BD67-18EA6B4DFDBF}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33636FCC-C1C9-4B3D-8C3A-9894A8A9F954} = {D0767168-C038-4856-8283-EA68A7D27708}
+		{341E7464-26DD-45EB-BD67-18EA6B4DFDBF} = {D0767168-C038-4856-8283-EA68A7D27708}
+	EndGlobalSection
+EndGlobal
