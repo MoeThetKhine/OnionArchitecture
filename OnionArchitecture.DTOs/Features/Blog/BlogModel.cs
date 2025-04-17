@@ -1,5 +1,5 @@
 ﻿namespace OnionArchitecture.DTOs.Features.Blog;
 
-internal class BlogModel
+public class BlogModel
 {
 }
