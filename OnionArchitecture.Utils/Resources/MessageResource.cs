@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.Utils.Resources;
 
+#region MessageResource
+
 public class MessageResource
 {
 	public static string Success { get; } = "Success.";
@@ -16,3 +18,5 @@ public class MessageResource
 	public static string InvalidPageSize { get; } = "Page Size is invalid.";
 
 }
+
+#endregion
