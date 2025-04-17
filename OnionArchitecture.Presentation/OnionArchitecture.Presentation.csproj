@@ -14,4 +14,11 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnionArchitecture.Application\OnionArchitecture.Application.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.DTOs\OnionArchitecture.DTOs.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Extension\OnionArchitecture.Extension.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Shared\OnionArchitecture.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
