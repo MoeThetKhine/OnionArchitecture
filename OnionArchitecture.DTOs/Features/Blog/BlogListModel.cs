@@ -1,6 +1,4 @@
-﻿using OnionArchitecture.DTOs.Features.PageSetting;
-
-namespace OnionArchitecture.DTOs.Features.Blog;
+﻿namespace OnionArchitecture.DTOs.Features.Blog;
 
 #region BlogListModel
 
