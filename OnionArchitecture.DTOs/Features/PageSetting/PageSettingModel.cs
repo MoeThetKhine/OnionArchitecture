@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.DTOs.Features.PageSetting;
 
+#region PageSettingModel
+
 public class PageSettingModel
 {
 	public int PageNo { get; set; }
@@ -15,3 +17,5 @@ public class PageSettingModel
 		TotalCount = totalCount;
 	}
 }
+
+#endregion
