@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace OnionArchitecture.DbService.AppDbContextModels;
+﻿namespace OnionArchitecture.DbService.AppDbContextModels;
 
 public partial class JobQueue
 {
