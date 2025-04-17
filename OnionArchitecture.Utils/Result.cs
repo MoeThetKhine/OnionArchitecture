@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Utils
+﻿namespace OnionArchitecture.Utils;
+
+internal class Result
 {
-	internal class Result
-	{
-	}
 }
