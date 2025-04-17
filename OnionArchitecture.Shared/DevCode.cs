@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace OnionArchitecture.Shared;
+﻿namespace OnionArchitecture.Shared;
 
 #region DevCode
 
