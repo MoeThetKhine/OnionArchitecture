@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Utils.Resources
+﻿namespace OnionArchitecture.Utils.Resources;
+
+internal class MessageResource
 {
-	internal class MessageResource
-	{
-	}
 }
