@@ -1,7 +1,4 @@
-﻿using OnionArchitecture.DbService.AppDbContextModels;
-using OnionArchitecture.DTOs.Features.Blog;
-
-namespace OnionArchitecture.Extension;
+﻿namespace OnionArchitecture.Extension;
 
 public static class Extension
 {
