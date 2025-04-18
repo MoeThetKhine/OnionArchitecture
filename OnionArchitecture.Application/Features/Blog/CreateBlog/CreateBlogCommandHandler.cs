@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Application.Features.Blog.CreateBlog
+﻿namespace OnionArchitecture.Application.Features.Blog.CreateBlog;
+
+internal class CreateBlogCommandHandler
 {
-	internal class CreateBlogCommandHandler
-	{
-	}
 }
