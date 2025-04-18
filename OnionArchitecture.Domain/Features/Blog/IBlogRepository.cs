@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Domain.Features.Blog
+﻿namespace OnionArchitecture.Domain.Features.Blog;
+
+internal interface IBlogRepository
 {
-	internal interface IBlogRepository
-	{
-	}
 }
