@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Presentation.Extension
+﻿namespace OnionArchitecture.Presentation.Extension;
+
+public class DependencyInjection
 {
-	public class DependencyInjection
-	{
-	}
 }
