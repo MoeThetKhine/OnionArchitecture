@@ -1,5 +1,5 @@
 ﻿namespace OnionArchitecture.Application.Extension;
 
-internal class Extension
+public class Extension
 {
 }
