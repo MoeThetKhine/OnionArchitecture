@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Application.Features.Blog.UpdateBlog
+﻿namespace OnionArchitecture.Application.Features.Blog.UpdateBlog;
+
+internal class UpdateBlogCommandHandler
 {
-	internal class UpdateBlogCommandHandler
-	{
-	}
 }
