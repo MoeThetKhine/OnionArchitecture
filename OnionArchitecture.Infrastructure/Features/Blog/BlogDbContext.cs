@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Infrastructure.Features.Blog
+﻿namespace OnionArchitecture.Infrastructure.Features.Blog;
+
+internal class BlogDbContext
 {
-	internal class BlogDbContext
-	{
-	}
 }
