@@ -2,6 +2,8 @@
 
 namespace OnionArchitecture.Application.Extension;
 
+#region Extension
+
 public static class Extension
 {
 	public static IServiceCollection AddMediatRService(this IServiceCollection services)
@@ -10,3 +12,5 @@ public static class Extension
 		cf.RegisterServicesFromAssembly(typeof(Extension).Assembly));
 	}
 }
+
+#endregion
