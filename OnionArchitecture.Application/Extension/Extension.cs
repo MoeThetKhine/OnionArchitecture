@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Application.Extension
+﻿namespace OnionArchitecture.Application.Extension;
+
+internal class Extension
 {
-	internal class Extension
-	{
-	}
 }
