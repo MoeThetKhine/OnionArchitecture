@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace OnionArchitecture.Presentation.Controllers
+namespace OnionArchitecture.Presentation.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class BaseController : ControllerBase
 {
-	[Route("api/[controller]")]
-	[ApiController]
-	public class BaseController : ControllerBase
-	{
-	}
 }
