@@ -27,5 +27,10 @@ public static class DependencyInjection
 		return services.AddScoped<IBlogRepository, BlogRepository>();
 	}
 
+	public static IServiceCollection AddDependencyInjection(this IServiceCollection services, WebApplicationBuilder builder)
+	{
+		return services.AddDbContextService(builder).AddRepositoryService();
+	}
+
 
 }
