@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OnionArchitecture.Domain.Features.Blog;
 using OnionArchitecture.Infrastructure.Features.Blog;
 
 namespace OnionArchitecture.Presentation.Extension;
@@ -20,5 +21,11 @@ public static class DependencyInjection
 
 		return services;
 	}
+
+	private static IServiceCollection AddRepositoryService(this IServiceCollection services)
+	{
+		return services.AddScoped<IBlogRepository, BlogRepository>();
+	}
+
 
 }
