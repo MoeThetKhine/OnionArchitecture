@@ -1,5 +1,7 @@
-﻿namespace OnionArchitecture.Infrastructure.Features.Blog;
+﻿using OnionArchitecture.Domain.Features.Blog;
 
-public class BlogRepository
+namespace OnionArchitecture.Infrastructure.Features.Blog;
+
+public class BlogRepository : IBlogRepository
 {
 }
