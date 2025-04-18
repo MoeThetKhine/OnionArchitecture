@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Application.Features.Blog.DeleteBlog
+﻿namespace OnionArchitecture.Application.Features.Blog.DeleteBlog;
+
+internal class DeleteBlogCommand
 {
-	internal class DeleteBlogCommand
-	{
-	}
 }
