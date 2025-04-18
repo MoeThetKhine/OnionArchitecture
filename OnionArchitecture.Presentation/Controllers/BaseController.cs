@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using OnionArchitecture.Shared;
-
-namespace OnionArchitecture.Presentation.Controllers;
+﻿namespace OnionArchitecture.Presentation.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
