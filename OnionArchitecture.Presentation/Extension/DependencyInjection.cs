@@ -1,8 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using OnionArchitecture.Domain.Features.Blog;
-using OnionArchitecture.Infrastructure.Features.Blog;
-
-namespace OnionArchitecture.Presentation.Extension;
+﻿namespace OnionArchitecture.Presentation.Extension;
 
 public static class DependencyInjection
 {
