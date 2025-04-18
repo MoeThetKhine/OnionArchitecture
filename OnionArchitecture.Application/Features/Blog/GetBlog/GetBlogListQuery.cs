@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Application.Features.Blog.GetBlog
+﻿namespace OnionArchitecture.Application.Features.Blog.GetBlog;
+
+internal class GetBlogListQuery
 {
-	internal class GetBlogListQuery
-	{
-	}
 }
