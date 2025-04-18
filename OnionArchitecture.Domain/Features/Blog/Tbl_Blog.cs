@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.Domain.Features.Blog;
 
+#region Tbl_Blog
+
 public class Tbl_Blog
 {
 	public long BlogId { get; set; }
@@ -13,3 +15,5 @@ public class Tbl_Blog
 	public bool? DeleteFlag { get; set; }
 
 }
+
+#endregion
