@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-
-namespace OnionArchitecture.Application.Extension;
+﻿namespace OnionArchitecture.Application.Extension;
 
 #region Extension
 
