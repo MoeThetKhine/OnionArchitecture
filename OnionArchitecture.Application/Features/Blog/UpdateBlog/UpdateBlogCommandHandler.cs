@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.Application.Features.Blog.UpdateBlog;
 
+#region UpdateBlogCommandHandler
+
 public class UpdateBlogCommandHandler : IRequestHandler<UpdateBlogCommand, Result<BlogModel>>
 {
 	private readonly IBlogRepository _blogRepository;
@@ -43,3 +45,4 @@ public class UpdateBlogCommandHandler : IRequestHandler<UpdateBlogCommand, Resul
 
 }
 
+#endregion
