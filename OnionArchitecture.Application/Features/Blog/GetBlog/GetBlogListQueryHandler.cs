@@ -9,6 +9,8 @@ public class GetBlogListQueryHandler : IRequestHandler<GetBlogListQuery, Result<
 		_blogRepository = blogRepository;
 	}
 
+	#region Handle
+
 	public async Task<Result<BlogListModelV1>> Handle(GetBlogListQuery request, CancellationToken cancellationToken)
 	{
 		Result<BlogListModelV1> result;
@@ -30,5 +32,7 @@ public class GetBlogListQueryHandler : IRequestHandler<GetBlogListQuery, Result<
 	result:
 		return result;
 	}
+
+	#endregion
 
 }
