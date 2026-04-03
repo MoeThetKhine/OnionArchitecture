@@ -1,4 +1,5 @@
-﻿using OnionArchitecture.DTOs.Features.Blog;
+﻿using MediatR;
+using OnionArchitecture.DTOs.Features.Blog;
 using OnionArchitecture.Utils;
 
 namespace OnionArchitecture.Application.Features.Blog.GetBlog;
