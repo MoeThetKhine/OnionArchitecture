@@ -1,5 +1,16 @@
-﻿namespace OnionArchitecture.Application.Features.Blog.DeleteBlog;
+﻿using MediatR;
+using OnionArchitecture.DTOs.Features.Blog;
+using OnionArchitecture.Utils;
 
-public class DeleteBlogCommand
+namespace OnionArchitecture.Application.Features.Blog.DeleteBlog;
+
+public class DeleteBlogCommand : IRequest<Result<BlogModel>>
 {
+	public int BlogId { get; set; }
+
+	public DeleteBlogCommand(int blogId)
+	{
+		BlogId = blogId;
+	}
+
 }
