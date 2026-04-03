@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.Application.Features.Blog.GetBlog;
 
+#region GetBlogListQueryHandler
+
 public class GetBlogListQueryHandler : IRequestHandler<GetBlogListQuery, Result<BlogListModelV1>>
 {
 	private readonly IBlogRepository _blogRepository;
@@ -36,3 +38,5 @@ public class GetBlogListQueryHandler : IRequestHandler<GetBlogListQuery, Result<
 	#endregion
 
 }
+
+#endregion
