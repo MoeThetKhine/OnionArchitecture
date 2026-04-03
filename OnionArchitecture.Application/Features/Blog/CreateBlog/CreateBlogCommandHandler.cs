@@ -1,8 +1,4 @@
-﻿using MediatR;
-using Microsoft.IdentityModel.Tokens;
-using OnionArchitecture.Domain.Features.Blog;
-using OnionArchitecture.DTOs.Features.Blog;
-using OnionArchitecture.Utils;
+﻿using Microsoft.IdentityModel.Tokens;
 
 namespace OnionArchitecture.Application.Features.Blog.CreateBlog;
 
