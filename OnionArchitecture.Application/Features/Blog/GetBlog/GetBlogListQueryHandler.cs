@@ -1,10 +1,4 @@
-﻿global using MediatR;
-global using OnionArchitecture.Domain.Features.Blog;
-global using OnionArchitecture.DTOs.Features.Blog;
-global using OnionArchitecture.Utils;
-global using OnionArchitecture.Utils.Resources;
-
-namespace OnionArchitecture.Application.Features.Blog.GetBlog;
+﻿namespace OnionArchitecture.Application.Features.Blog.GetBlog;
 
 public class GetBlogListQueryHandler : IRequestHandler<GetBlogListQuery, Result<BlogListModelV1>>
 {
