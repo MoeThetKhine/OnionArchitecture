@@ -1,6 +1,4 @@
-﻿using Microsoft.IdentityModel.Tokens;
-
-namespace OnionArchitecture.Application.Features.Blog.CreateBlog;
+﻿namespace OnionArchitecture.Application.Features.Blog.CreateBlog;
 
 public class CreateBlogCommandHandler : IRequestHandler<CreateBlogCommand, Result<BlogModel>>
 {
