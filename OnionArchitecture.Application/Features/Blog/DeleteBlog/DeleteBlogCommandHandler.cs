@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.Application.Features.Blog.DeleteBlog;
 
+#region DeleteBlogCommandHandler
+
 public class DeleteBlogCommandHandler : IRequestHandler<DeleteBlogCommand, Result<BlogModel>>
 {
 	private readonly IBlogRepository _blogRepository;
@@ -30,3 +32,5 @@ public class DeleteBlogCommandHandler : IRequestHandler<DeleteBlogCommand, Resul
 	#endregion
 
 }
+
+#endregion
