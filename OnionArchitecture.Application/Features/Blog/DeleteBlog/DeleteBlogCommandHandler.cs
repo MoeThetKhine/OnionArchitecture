@@ -1,7 +1,4 @@
-﻿using OnionArchitecture.Utils.Resources;
-using OnionArchitecture.Utils;
-
-namespace OnionArchitecture.Application.Features.Blog.DeleteBlog;
+﻿namespace OnionArchitecture.Application.Features.Blog.DeleteBlog;
 
 public class DeleteBlogCommandHandler : IRequestHandler<DeleteBlogCommand, Result<BlogModel>>
 {
