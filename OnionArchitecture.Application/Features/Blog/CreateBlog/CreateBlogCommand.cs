@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.Application.Features.Blog.CreateBlog;
 
+#region CreateBlogCommand
+
 public class CreateBlogCommand : IRequest<Result<BlogModel>>
 {
 	public BlogRequestModel requestModel;
@@ -10,3 +12,5 @@ public class CreateBlogCommand : IRequest<Result<BlogModel>>
 	}
 
 }
+
+#endregion
