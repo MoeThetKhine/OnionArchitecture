@@ -1,8 +1,8 @@
-﻿using MediatR;
-using OnionArchitecture.Domain.Features.Blog;
-using OnionArchitecture.DTOs.Features.Blog;
-using OnionArchitecture.Utils;
-using OnionArchitecture.Utils.Resources;
+﻿global using MediatR;
+global using OnionArchitecture.Domain.Features.Blog;
+global using OnionArchitecture.DTOs.Features.Blog;
+global using OnionArchitecture.Utils;
+global using OnionArchitecture.Utils.Resources;
 
 namespace OnionArchitecture.Application.Features.Blog.GetBlog;
 
