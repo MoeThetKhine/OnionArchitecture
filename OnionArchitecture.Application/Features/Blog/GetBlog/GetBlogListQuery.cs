@@ -1,8 +1,4 @@
-﻿using MediatR;
-using OnionArchitecture.DTOs.Features.Blog;
-using OnionArchitecture.Utils;
-
-namespace OnionArchitecture.Application.Features.Blog.GetBlog;
+﻿namespace OnionArchitecture.Application.Features.Blog.GetBlog;
 
 #region GetBlogListQuery
 
