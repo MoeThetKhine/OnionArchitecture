@@ -1,7 +1,4 @@
-﻿using MediatR;
-using OnionArchitecture.Domain.Features.Blog;
-using OnionArchitecture.DTOs.Features.Blog;
-using OnionArchitecture.Utils.Resources;
+﻿using OnionArchitecture.Utils.Resources;
 using OnionArchitecture.Utils;
 
 namespace OnionArchitecture.Application.Features.Blog.DeleteBlog;
