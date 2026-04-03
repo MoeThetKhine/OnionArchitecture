@@ -1,8 +1,4 @@
-﻿using MediatR;
-using OnionArchitecture.DTOs.Features.Blog;
-using OnionArchitecture.Utils;
-
-namespace OnionArchitecture.Application.Features.Blog.UpdateBlog;
+﻿namespace OnionArchitecture.Application.Features.Blog.UpdateBlog;
 
 public class UpdateBlogCommand : IRequest<Result<BlogModel>>
 {
