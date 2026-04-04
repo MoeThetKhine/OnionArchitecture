@@ -1,8 +1,15 @@
+using OnionArchitecture.Application.Extension;
+using OnionArchitecture.Presentation.Extension;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDependencyInjection(builder);
+builder.Services.AddMediatRService();
+
 
 var app = builder.Build();
 
