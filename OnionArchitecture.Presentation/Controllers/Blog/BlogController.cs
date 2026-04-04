@@ -1,11 +1,4 @@
-﻿using MediatR;
-using OnionArchitecture.Application.Features.Blog.CreateBlog;
-using OnionArchitecture.Application.Features.Blog.DeleteBlog;
-using OnionArchitecture.Application.Features.Blog.GetBlog;
-using OnionArchitecture.Application.Features.Blog.UpdateBlog;
-using OnionArchitecture.DTOs.Features.Blog;
-
-namespace OnionArchitecture.Presentation.Controllers.Blog;
+﻿namespace OnionArchitecture.Presentation.Controllers.Blog;
 
 [Route("api/[controller]")]
 [ApiController]
