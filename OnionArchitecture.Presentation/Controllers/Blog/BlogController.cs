@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using OnionArchitecture.Application.Features.Blog.CreateBlog;
+using OnionArchitecture.Application.Features.Blog.DeleteBlog;
 using OnionArchitecture.Application.Features.Blog.GetBlog;
 using OnionArchitecture.Application.Features.Blog.UpdateBlog;
 using OnionArchitecture.DTOs.Features.Blog;
@@ -42,6 +43,14 @@ public class BlogController : BaseController
 		var command = new UpdateBlogCommand(requestModel, id);
 		var result = await _mediator.Send(command, cancellationToken);
 
+		return Content(result);
+	}
+
+	[HttpDelete("{id}")]
+	public async Task<IActionResult> DeleteBlog(int id, CancellationToken cancellationToken)
+	{
+		var command = new DeleteBlogCommand(id);
+		var result = await _mediator.Send(command, cancellationToken);
 		return Content(result);
 	}
 }
