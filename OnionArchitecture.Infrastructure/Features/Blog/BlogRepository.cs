@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using OnionArchitecture.DbService.AppDbContextModels;
+﻿using OnionArchitecture.DbService.AppDbContextModels;
 using OnionArchitecture.DTOs.Features.Blog;
 using OnionArchitecture.DTOs.Features.PageSetting;
 using OnionArchitecture.Extension;
