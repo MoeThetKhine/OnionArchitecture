@@ -61,7 +61,7 @@ public class BlogController : BaseController
 	#region DeleteBlogAsync
 
 	[HttpDelete("{id}")]
-	public async Task<IActionResult> DeleteBlog(int id, CancellationToken cancellationToken)
+	public async Task<IActionResult> DeleteBlogAsync(int id, CancellationToken cancellationToken)
 	{
 		var command = new DeleteBlogCommand(id);
 		var result = await _mediator.Send(command, cancellationToken);
