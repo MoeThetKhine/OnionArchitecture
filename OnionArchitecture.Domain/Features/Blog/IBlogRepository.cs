@@ -3,6 +3,8 @@ using OnionArchitecture.Utils;
 
 namespace OnionArchitecture.Domain.Features.Blog;
 
+#region IBlogRepository
+
 public interface IBlogRepository
 {
 	Task<Result<BlogListModelV1>> GetBlogsAsync(int pageNo, int pageSize, CancellationToken cancellationToken);
@@ -12,3 +14,5 @@ public interface IBlogRepository
 	Task<Result<BlogModel>> PatchBlogAsync(BlogRequestModel blogRequest, int id, CancellationToken cancellationToken);
 	Task<Result<BlogModel>> DeleteBlogAsync(int id, CancellationToken cancellationToken);
 }
+
+#endregion
