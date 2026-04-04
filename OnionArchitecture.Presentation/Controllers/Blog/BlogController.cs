@@ -1,5 +1,4 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
 using OnionArchitecture.Application.Features.Blog.CreateBlog;
 using OnionArchitecture.Application.Features.Blog.DeleteBlog;
 using OnionArchitecture.Application.Features.Blog.GetBlog;
