@@ -1,6 +1,3 @@
-using OnionArchitecture.Application.Extension;
-using OnionArchitecture.Presentation.Extension;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
