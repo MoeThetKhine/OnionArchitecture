@@ -6,4 +6,5 @@ namespace OnionArchitecture.Presentation.Controllers.Blog;
 [ApiController]
 public class BlogController : ControllerBase
 {
+	
 }
