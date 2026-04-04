@@ -58,6 +58,8 @@ public class BlogController : BaseController
 
 	#endregion
 
+	#region DeleteBlogAsync
+
 	[HttpDelete("{id}")]
 	public async Task<IActionResult> DeleteBlog(int id, CancellationToken cancellationToken)
 	{
@@ -65,4 +67,6 @@ public class BlogController : BaseController
 		var result = await _mediator.Send(command, cancellationToken);
 		return Content(result);
 	}
+
+	#endregion
 }
