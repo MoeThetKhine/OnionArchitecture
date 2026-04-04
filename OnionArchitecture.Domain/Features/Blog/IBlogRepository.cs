@@ -1,7 +1,4 @@
-﻿using OnionArchitecture.DTOs.Features.Blog;
-using OnionArchitecture.Utils;
-
-namespace OnionArchitecture.Domain.Features.Blog;
+﻿namespace OnionArchitecture.Domain.Features.Blog;
 
 #region IBlogRepository
 
