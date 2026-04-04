@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using OnionArchitecture.Application.Features.Blog.CreateBlog;
 using OnionArchitecture.Application.Features.Blog.GetBlog;
+using OnionArchitecture.Application.Features.Blog.UpdateBlog;
 using OnionArchitecture.DTOs.Features.Blog;
 
 namespace OnionArchitecture.Presentation.Controllers.Blog;
@@ -30,6 +31,15 @@ public class BlogController : BaseController
 	public async Task<IActionResult> CreateBlogAsync([FromBody] BlogRequestModel requestModel, CancellationToken cancellationToken)
 	{
 		var command = new CreateBlogCommand(requestModel); ;
+		var result = await _mediator.Send(command, cancellationToken);
+
+		return Content(result);
+	}
+
+	[HttpPut("{id}")]
+	public async Task<IActionResult> UpdateBlogAsync([FromBody] BlogRequestModel requestModel, int id, CancellationToken cancellationToken)
+	{
+		var command = new UpdateBlogCommand(requestModel, id);
 		var result = await _mediator.Send(command, cancellationToken);
 
 		return Content(result);
