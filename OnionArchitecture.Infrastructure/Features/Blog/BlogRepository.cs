@@ -1,11 +1,4 @@
-﻿using OnionArchitecture.DbService.AppDbContextModels;
-using OnionArchitecture.DTOs.Features.Blog;
-using OnionArchitecture.DTOs.Features.PageSetting;
-using OnionArchitecture.Extension;
-using OnionArchitecture.Shared;
-using OnionArchitecture.Utils;
-
-namespace OnionArchitecture.Infrastructure.Features.Blog;
+﻿namespace OnionArchitecture.Infrastructure.Features.Blog;
 
 public class BlogRepository : IBlogRepository
 {
