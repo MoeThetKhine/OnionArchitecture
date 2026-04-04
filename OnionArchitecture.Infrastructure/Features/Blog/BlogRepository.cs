@@ -110,5 +110,34 @@ public class BlogRepository : IBlogRepository
 		return result;
 	}
 
+	public async Task<Result<BlogModel>> DeleteBlogAsync(int id, CancellationToken cancellationToken)
+	{
+		Result<BlogModel> result;
+
+		try
+		{
+			var blog = await _appDbContext.TblBlogs.FindAsync([id, cancellationToken], cancellationToken: cancellationToken);
+
+			if (blog is null)
+			{
+				result = Result<BlogModel>.NotFound();
+				goto result;
+			}
+
+			_appDbContext.TblBlogs.Remove(blog);
+			await _appDbContext.SaveChangesAsync(cancellationToken);
+
+			result = Result<BlogModel>.DeleteSuccess();
+		}
+
+		catch (Exception ex)
+		{
+			result = Result<BlogModel>.Failure(ex);
+		}
+
+	result:
+		return result;
+	}
+
 
 }
