@@ -2,6 +2,7 @@
 using OnionArchitecture.DbService.AppDbContextModels;
 using OnionArchitecture.DTOs.Features.Blog;
 using OnionArchitecture.DTOs.Features.PageSetting;
+using OnionArchitecture.Extension;
 using OnionArchitecture.Shared;
 using OnionArchitecture.Utils;
 
@@ -56,4 +57,25 @@ public class BlogRepository : IBlogRepository
 		}
 		return result;
 	}
+
+	public async Task<Result<BlogModel>> CreateBlogAsync(BlogRequestModel blogRequest, CancellationToken cancellationToken)
+	{
+		Result<BlogModel> result;
+
+		try
+		{
+			await _appDbContext.TblBlogs.AddAsync(blogRequest.ToEntity(), cancellationToken);
+			await _appDbContext.SaveChangesAsync(cancellationToken);
+
+			result = Result<BlogModel>.SaveSuccess();
+		}
+
+		catch (Exception ex)
+		{
+			result = Result<BlogModel>.Failure(ex);
+		}
+
+		return result;
+	}
+
 }
