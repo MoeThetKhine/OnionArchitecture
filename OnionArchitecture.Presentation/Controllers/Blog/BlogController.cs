@@ -1,6 +1,4 @@
-﻿using OnionArchitecture.Application.Features.Blog.GetBlogById;
-
-namespace OnionArchitecture.Presentation.Controllers.Blog;
+﻿namespace OnionArchitecture.Presentation.Controllers.Blog;
 
 [Route("api/[controller]")]
 [ApiController]
