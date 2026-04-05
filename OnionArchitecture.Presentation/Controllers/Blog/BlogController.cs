@@ -1,4 +1,6 @@
-﻿namespace OnionArchitecture.Presentation.Controllers.Blog;
+﻿using OnionArchitecture.Application.Features.Blog.GetBlogById;
+
+namespace OnionArchitecture.Presentation.Controllers.Blog;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -23,6 +25,17 @@ public class BlogController : BaseController
 	}
 
 	#endregion
+
+
+
+	[HttpGet("{id}")]
+	public async Task<IActionResult> GetBlogByIdAsync(int id, CancellationToken cancellationToken)
+	{
+		var query = new GetBlogByIdQuery(id);
+		var result = await _mediator.Send(query, cancellationToken);
+
+		return Content(result);
+	}
 
 	#region CreateBlogAsync
 
@@ -61,4 +74,5 @@ public class BlogController : BaseController
 	}
 
 	#endregion
+
 }
