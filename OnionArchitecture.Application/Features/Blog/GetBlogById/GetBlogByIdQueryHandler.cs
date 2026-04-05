@@ -1,6 +1,5 @@
-﻿namespace OnionArchitecture.Application.Features.Blog.GetBlogById
+﻿namespace OnionArchitecture.Application.Features.Blog.GetBlogById;
+
+internal class GetBlogByIdQueryHandler
 {
-	internal class GetBlogByIdQueryHandler
-	{
-	}
 }
