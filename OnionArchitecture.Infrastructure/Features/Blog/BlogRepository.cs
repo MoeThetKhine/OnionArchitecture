@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace OnionArchitecture.Infrastructure.Features.Blog;
+﻿namespace OnionArchitecture.Infrastructure.Features.Blog;
 
 public class BlogRepository : IBlogRepository
 {
