@@ -1,4 +1,6 @@
-﻿namespace OnionArchitecture.Presentation.Controllers.Blog;
+﻿using OnionArchitecture.Application.Features.Blog.PatchBlog;
+
+namespace OnionArchitecture.Presentation.Controllers.Blog;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -74,5 +76,13 @@ public class BlogController : BaseController
 	}
 
 	#endregion
+
+	[HttpPatch("{id}")]
+	public async Task<IActionResult> PatchBlogAsync([FromBody] BlogRequestModel requestModel, int id, CancellationToken cancellationToken)
+	{
+		var command = new PatchBlogCommand(requestModel, id);
+		var result = await _mediator.Send(command, cancellationToken);
+		return Content(result);
+	}
 
 }
