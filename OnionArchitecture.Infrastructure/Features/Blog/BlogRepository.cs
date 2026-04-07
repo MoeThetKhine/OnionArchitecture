@@ -160,6 +160,8 @@ public class BlogRepository : IBlogRepository
 
 			var blog = await _appDbContext.TblBlogs.FindAsync([id, cancellationToken], cancellationToken: cancellationToken);
 
+			#region Validation
+
 			if (blog is null)
 			{
 				result = Result<BlogModel>.NotFound();
@@ -180,6 +182,8 @@ public class BlogRepository : IBlogRepository
 			{
 				blog.BlogContent = requestModel.BlogContent;
 			}
+
+			#endregion
 
 			_appDbContext.TblBlogs.Update(blog);
 			await _appDbContext.SaveChangesAsync(cancellationToken);
