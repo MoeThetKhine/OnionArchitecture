@@ -13,4 +13,3 @@ global using OnionArchitecture.Application.Extension;
 global using OnionArchitecture.Presentation.Extension;
 global using OnionArchitecture.Application.Features.Blog.GetBlogById;
 global using OnionArchitecture.Application.Features.Blog.PatchBlog;
-
