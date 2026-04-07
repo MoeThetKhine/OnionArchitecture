@@ -77,6 +77,8 @@ public class BlogController : BaseController
 
 	#endregion
 
+
+
 	[HttpPatch("{id}")]
 	public async Task<IActionResult> PatchBlogAsync([FromBody] BlogRequestModel requestModel, int id, CancellationToken cancellationToken)
 	{
