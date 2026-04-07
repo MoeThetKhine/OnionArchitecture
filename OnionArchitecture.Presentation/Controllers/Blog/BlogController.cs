@@ -77,7 +77,7 @@ public class BlogController : BaseController
 
 	#endregion
 
-
+	#region PatchBlogAsync
 
 	[HttpPatch("{id}")]
 	public async Task<IActionResult> PatchBlogAsync([FromBody] BlogRequestModel requestModel, int id, CancellationToken cancellationToken)
@@ -86,5 +86,7 @@ public class BlogController : BaseController
 		var result = await _mediator.Send(command, cancellationToken);
 		return Content(result);
 	}
+
+	#endregion
 
 }
