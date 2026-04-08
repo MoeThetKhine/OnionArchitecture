@@ -1,6 +1,4 @@
-﻿using OnionArchitecture.Domain.Features.Blog;
-
-namespace OnionArchitecture.Application.Features.Blog.PatchBlog;
+﻿namespace OnionArchitecture.Application.Features.Blog.PatchBlog;
 
 #region PatchBlogCommandHandler
 
