@@ -1,5 +1,7 @@
 ﻿namespace OnionArchitecture.Application.Features.Blog.PatchBlog;
 
+#region PatchBlogCommandHandler
+
 public class PatchBlogCommandHandler : IRequestHandler<PatchBlogCommand, Result<BlogModel>>
 {
 	private readonly IBlogRepository repository;
@@ -26,3 +28,5 @@ public class PatchBlogCommandHandler : IRequestHandler<PatchBlogCommand, Result<
 	}
 
 }
+
+#endregion
