@@ -1,14 +1,16 @@
-﻿namespace OnionArchitecture.Application.Features.Blog.PatchBlog;
+﻿using OnionArchitecture.Domain.Features.Blog;
+
+namespace OnionArchitecture.Application.Features.Blog.PatchBlog;
 
 #region PatchBlogCommandHandler
 
 public class PatchBlogCommandHandler : IRequestHandler<PatchBlogCommand, Result<BlogModel>>
 {
-	private readonly IBlogRepository repository;
+	private readonly IBlogRepository _blogRepository;
 
-	public PatchBlogCommandHandler(IBlogRepository repository)
+	public PatchBlogCommandHandler(IBlogRepository blogRepository)
 	{
-		this.repository = repository;
+		this._blogRepository = blogRepository;
 	}
 
 	#region Handle
